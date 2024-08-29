@@ -18,7 +18,7 @@ Steps listed are tested for Windows device operating Linux using WSL.
      4. add **export PATH=$PATH:~/Vivado/2024.1/bin** to **~/.bashrc** so vivado command can be called 
 4. pull https://github.com/pnnl/soda-opt in Ubuntu home directory
      1. navivate to **~/soda-opt/docs/tutorials/tensorflow/docker-version**
-     2. run **docker pull agostini01/soda** (docker desktop should be on and running)
+     2. run **docker pull agostini01/soda** (docker desktop should be running)
 
 **Converting C to verilog** 
 1. Navivate to **~/soda-opt/docs/tutorials/tensorflow/docker-version**
