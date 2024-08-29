@@ -24,7 +24,7 @@ Steps listed are tested for Windows device operating Linux using WSL.
 1. Navivate to **~/soda-opt/docs/tutorials/tensorflow/docker-version**
 2. Save C files and .xml testbench files to directory 
 3. Ensure Docker is running
-4. run **docker run -it --rm -v \$(pwd):$(pwd) -w $(pwd) --user $(id -u):$(id -g) agostini01/soda /bin/bash**
+4. run **`docker run -it --rm -v $(pwd):$(pwd) -w $(pwd) --user $(id -u):$(id -g) agostini01/soda /bin/bash`**
 5. run **bambu (C_file_name).c --top-fname=(top_function_name) --generate-tb=(testbench_file_name).xml --no-clean --simulate --simulator=VERILATOR**
      1. run **./simulate_(function_name).sh** to simulate generated verilog output
      2. run **./synthesize_Synthesis_(function_name).sh** to synthesize verilog output
