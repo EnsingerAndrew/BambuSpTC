@@ -36,6 +36,6 @@ Steps listed are tested for Windows device operating Linux using WSL.
 2. Save C files and .xml testbench files to directory 
 3. Ensure Docker is running
 4. run **`docker run -it --rm -v $(pwd):$(pwd) -w $(pwd) --user $(id -u):$(id -g) agostini01/soda /bin/bash`**
-5. run **`bambu bam.c --top-fname=contract.c --generate-tb=testbench_thousand.xml --no-clean --simulate --simulator=VERILATOR`**
+5. run **`bambu bam.c --top-fname=contract --generate-tb=testbench_thousand.xml --no-clean --simulate --simulator=VERILATOR`**
      1. run **`./simulate_contract.sh`** to simulate generated verilog output
      2. run **`./synthesize_Synthesis_contract.sh`** to synthesize verilog output
